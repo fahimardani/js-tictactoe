@@ -1,0 +1,29 @@
+body {
+    background: gold;
+}
+
+#gameContainer {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 3.125rem;
+    cursor: pointer;
+}
+button {
+    font-family: "Permanent Marker", cursive;
+    padding: .5rem 1rem;
+    background: #242424;
+    color: #fff;
+}
